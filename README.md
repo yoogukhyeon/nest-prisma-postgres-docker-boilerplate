@@ -31,4 +31,9 @@ docker-compose up
 # or detached
 docker-compose up -d
 ```
+
 # nest-prisma-postgres-docker-boilerplate
+
+```db connect
+"migrate:dev": "prisma migrate dev" ORM => DB 맵핑 (DB 테이블 생김))
+```
